@@ -39,6 +39,29 @@ class EveryDayAlgorithmTests: XCTestCase {
         length = solution.lengthOfLongestSubstring("abcabcbb")
         XCTAssert(length == 3)
     }
+    
+    func testMedianOfTwoSortedArray()  {
+        let soluation = Solution();
+        var midian: Double = soluation.findMedianSortedArrays([1,2], [3])
+        XCTAssert(midian == 2)
+    }
+    
+    func testLongestPalindrocSubstring() {
+        let sol = Solution();
+        var length:Int;
+        length = sol.LongestPalindromicSubstring(s: "abcaa")
+        XCTAssert(length == 2);
+
+        length = sol.LongestPalindromicSubstring(s: "abccba")
+        XCTAssert(length == 6);
+        length = sol.LongestPalindromicSubstring(s:"abac");
+        XCTAssert(length == 3)
+        length = sol.LongestPalindromicSubstring(s:"ab")
+        XCTAssert(length == 1);
+        length = sol.LongestPalindromicSubstring(s: "aa")
+        XCTAssert(length == 2);
+
+    }
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

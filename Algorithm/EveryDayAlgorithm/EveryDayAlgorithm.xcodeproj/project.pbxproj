@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0A14411F7B79CB00AE3D35 /* MediaOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A14401F7B79CB00AE3D35 /* MediaOfTwoSortedArrays.swift */; };
 		1A58E7AB1F7A205300DA20DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E7AA1F7A205300DA20DC /* AppDelegate.swift */; };
 		1A58E7AD1F7A205300DA20DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E7AC1F7A205300DA20DC /* ViewController.swift */; };
 		1A58E7B01F7A205300DA20DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A58E7AE1F7A205300DA20DC /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		1A58E7B51F7A205300DA20DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A58E7B31F7A205300DA20DC /* LaunchScreen.storyboard */; };
 		1A58E7C01F7A205300DA20DC /* EveryDayAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E7BF1F7A205300DA20DC /* EveryDayAlgorithmTests.swift */; };
 		1A58E7CB1F7A207E00DA20DC /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E7CA1F7A207E00DA20DC /* LongestSubstringWithoutRepeatingCharacters.swift */; };
+		1AA323AE1F8F57AB008FD6D6 /* RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA323AD1F8F57AB008FD6D6 /* RegularExpressionMatching.swift */; };
+		1AA323B01F8F83BF008FD6D6 /* functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA323AF1F8F83BF008FD6D6 /* functional.swift */; };
+		1AB664831F8C6F69009B170E /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB664821F8C6F69009B170E /* LongestPalindromicSubstring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0A14401F7B79CB00AE3D35 /* MediaOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 		1A58E7A71F7A205300DA20DC /* EveryDayAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDayAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A58E7AA1F7A205300DA20DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A58E7AC1F7A205300DA20DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		1A58E7BF1F7A205300DA20DC /* EveryDayAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveryDayAlgorithmTests.swift; sourceTree = "<group>"; };
 		1A58E7C11F7A205300DA20DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A58E7CA1F7A207E00DA20DC /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		1AA323AD1F8F57AB008FD6D6 /* RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatching.swift; sourceTree = "<group>"; };
+		1AA323AF1F8F83BF008FD6D6 /* functional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functional.swift; sourceTree = "<group>"; };
+		1AB664821F8C6F69009B170E /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 				1A58E7B31F7A205300DA20DC /* LaunchScreen.storyboard */,
 				1A58E7B61F7A205300DA20DC /* Info.plist */,
 				1A58E7CA1F7A207E00DA20DC /* LongestSubstringWithoutRepeatingCharacters.swift */,
+				1A0A14401F7B79CB00AE3D35 /* MediaOfTwoSortedArrays.swift */,
+				1AA323AD1F8F57AB008FD6D6 /* RegularExpressionMatching.swift */,
+				1AB664821F8C6F69009B170E /* LongestPalindromicSubstring.swift */,
+				1AA323AF1F8F83BF008FD6D6 /* functional.swift */,
 			);
 			path = EveryDayAlgorithm;
 			sourceTree = "<group>";
@@ -202,9 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA323B01F8F83BF008FD6D6 /* functional.swift in Sources */,
 				1A58E7AD1F7A205300DA20DC /* ViewController.swift in Sources */,
+				1A0A14411F7B79CB00AE3D35 /* MediaOfTwoSortedArrays.swift in Sources */,
 				1A58E7CB1F7A207E00DA20DC /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
+				1AB664831F8C6F69009B170E /* LongestPalindromicSubstring.swift in Sources */,
 				1A58E7AB1F7A205300DA20DC /* AppDelegate.swift in Sources */,
+				1AA323AE1F8F57AB008FD6D6 /* RegularExpressionMatching.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
